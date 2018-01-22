@@ -1,6 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard1.0</TargetFramework>
+    <TargetFramework>netstandard1.0</TargetFramework>    
+    <PackageId>jkulubya.UG.PhoneNumbers</PackageId>
+    <PackageVersion>0.0.1</PackageVersion>
+    <Authors>James Kulubya</Authors>
+    <Description>Utility for validating Ugandan phone numbers</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Copyright>Copyright 2018 (c) James Kulubya. All rights reserved.</Copyright>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Sprache" Version="2.1.0" />
